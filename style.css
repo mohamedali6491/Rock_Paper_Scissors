@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background: rgb(140, 182, 250);
+    font-family: monospace;
+    color:rgb(250,255,140);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    margin: 0 0 0 13vw;
+    background-color: brown;
+    align-items: center;
+}
+
+#header{
+    position: relative;
+    height: 20%;
+    
+    padding-top: 7%;
+}
+
+#score{
+    width: 70%;
+    height: 50px;
+       
+}
+
+#game{
+    display: flex;
+    gap:50px;
+    justify-content: flex-start;
+}
+
+.box{
+    
+    width: 150px;
+    height: 150px;
+    border: crimson 5px solid;
+    border-radius: 50%;
+    background-color: crimson;
+    outline: none;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(250,255,140);
+    background: chocolate;
+    transition: button .3s ease;
+
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box:active{
+transform: scale(1.2);
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(58, 56, 56);
+    border-width: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    transition: all .2s ease-in-out;
+}
+
+#result{
+    padding-top: 5%;
+    font-size: 24;
+    height: 100px;
+}
+
+#reset{
+    width: 100px;
+    height: 30px;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    background: rgb(250,255,140);
+    transition: button .2 ease-in-out;
+}
+#reset:hover{
+    transform: scale(1.2);
+}
+#reset:active{
+    transform: scale(1.1);
+}

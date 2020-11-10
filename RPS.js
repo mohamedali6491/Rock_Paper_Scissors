@@ -5,6 +5,11 @@ window.onload = function () {
     let result;
     let playerCounter = 0;
     let computerCounter = 0;
+    let playerRes=0;
+    let computerRes=0;
+    let x=0;
+    let y=0;
+    let z;
 
     function computerPlay() {
         let cS = rps[Math.floor(Math.random() * rps.length)];
@@ -75,5 +80,10 @@ window.onload = function () {
         }
 
     }
-    game();
+
+    function gameGui(){
+       
+    }
+   
+    
 }

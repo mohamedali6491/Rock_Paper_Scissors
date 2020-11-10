@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
     <title>
         Rock Paper Scissors
     </title>
-    <script src="RPS.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<h1>The game on the console</h1>
+    <div id="container">
+        <div id="header">
+            <header>
+                <h1>Rock Paper Scissors</h1>
+            </header>
+        </div>
+        <div id="score">
+            <p style="font-size: x-large; font-weight: bold;">Score: Player 0 - Computer 0</p>
+        </div>
+        <div id="game">
+            <button id="rock" class="box">Rock</button>
+            <button id="paper" class="box">Paper</button>
+            <button id="scissors" class="box">Scissors</button>
+        </div>
+        <div id="result" style="font-size: x-large; font-weight: bold;">play the game</div>
+        <div id="resetdiv">
+            <button id="reset">Play</button>
+        </div>
+    </div>
 </body>
+<script src="RPS2.js"></script>
+
 </html>
